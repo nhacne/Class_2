@@ -1,0 +1,7 @@
+{
+    "Name": "Nguyen Van 3",
+    "Email" : "nhatpm@",
+    "ClassId" : 1,
+    "CourseId" : 1
+}
+

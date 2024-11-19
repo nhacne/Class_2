@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm Học Sinh Vào Lớp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Thêm Học Sinh Vào Lớp</h1>
+        <form id="studentForm">
+            <label for="studentId">ID Học Sinh:</label>
+            <input type="number" id="studentId" name="studentId" required><br><br>
+
+            <label for="classId">ID Lớp:</label>
+            <input type="number" id="classId" name="classId" required><br><br>
+
+            <button type="submit">Thêm</button>
+        </form>
+        <div id="response"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+dotnet add package Microsoft.EntityFrameworkCore    (Dùng cho EF Core)
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer  ( Dùng cho SQL Server)
+dotnet add package Microsoft.EntityFrameworkCore.Design ( Dùng cho các công cụ thiết kế EF (ví dụ: migrations))
+
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet ef migrations add IntialCreate
+dotnet ef database update
+
+
+Server=localhost\\SQLEXPRESS;Database=NewStudent;Trusted_Connection=True;TrustServerCertificate=True;
+Server=tcp:nhatpm310.database.windows.net,1433;Initial Catalog=TEST;Persist Security Info=False;User ID=nhatpm2k5;Password=nhatpm310@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
